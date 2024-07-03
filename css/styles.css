@@ -16,8 +16,8 @@ button {cursor: pointer;}
 .container{
     width: 100%;
     max-width: 1158px;
-    padding-left: 0 15px;
-    padding-right: 0 15px;
+    padding-left: 15px;
+    padding-right: 15px;
     margin: 0 auto;
 }
 img{
@@ -157,7 +157,7 @@ gap: 40px;}
         .advantages {
             padding: 120px 0px;
         }
-        .visually-hidden{
+        .visually-hidden {
             position: absolute;
             width: 1px;
             height: 1px;
