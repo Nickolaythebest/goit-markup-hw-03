@@ -16,7 +16,8 @@ p, h1, h2, h3, h4, h5 {
 button {cursor: pointer;}
 .container{
     width: 100%;
-    max-width: 1440px;
+    max-width: 1158px;
+    padding: 0 15px;
     margin: 0 auto;
 }
 img{
@@ -28,21 +29,20 @@ img{
 .header {padding-top: 24px;
     padding-bottom: 24px;
     border-bottom: 1px solid #e7e9fc;
-    max-width: 1440px;
     max-height: 72px;
-    padding-left: 156px;
-    padding-right: 156px;
+    max-width: 1440px;
 }
 .header-container{
     display: flex;
     align-items: center;
 
+
 }
-.header-navigation {
+.header-navigation{
     display: flex;
     align-items: center;
-    flex-grow: 1;
-    justify-content: space-between;
+    
+
 }
 .header-logo{
     color:#4d5ae5;
@@ -53,8 +53,7 @@ img{
     line-height:1.17; /* 116.667% */
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    display: inline-block;
-    
+    margin-right: 76px;
 }
 .header-logo-part{color:#2e2f42;}
 .header-list{color:#2E2F42;
@@ -116,10 +115,10 @@ address{font-style: normal}
             max-height: 600px;
         }
         .container-button{
-            padding-bottom: 120px;
+            padding-bottom: 188px;
             padding-left: 472px;
             padding-right: 472px;
-            padding-top: 120px;
+            padding-top: 188px;
         }
         
         .button-container{
@@ -151,7 +150,7 @@ address{font-style: normal}
             border-radius: 4px;
             border: none;
             display: block;
-            min-width: 170px;
+            min-width: 169px;
             margin-top:48px;
         }
         .main-button:hover,
@@ -169,7 +168,7 @@ address{font-style: normal}
             text-align: start;
          }
         .advantages {
-            padding: 120px 156px;
+            padding: 120px 0px;
         }
         .visually-hidden {
             position: absolute;
@@ -200,7 +199,7 @@ address{font-style: normal}
         } 
 /*================Team=========================*/
 .team{background:#F4F4FD;
-    padding: 120px 156px;
+    padding: 120px 0px;
 }
 .team-title{
     color:#2E2F42;
@@ -242,11 +241,9 @@ address{font-style: normal}
 }
 /*====================Portfolio==============*/
 .portfolio {
-    max-height: 1240px;
+
     background: #FFF;
-    padding: 0px 156px 0px 156px;
-    margin-top: 120px;
-    margin-bottom: 120px;
+    padding: 120px 0px 120px 0px;
 }
 .portfolio-list {
     display: flex;
@@ -273,8 +270,7 @@ address{font-style: normal}
 /*=============Footer================*/
 .footer{background: #2E2F42;
     color: #F4F4FD;
-    max-height: 312px;
-    padding: 100px 156px;
+    padding: 100px 0px;
 }
 .footer-logo-part{color:#f4f4fd;}
 .footer-text{
@@ -284,6 +280,9 @@ address{font-style: normal}
     letter-spacing: 0.02em;
     width: 264px;
     height: 72px;
-    margin-top: 17.5px;
+}
+.footer-logo{
+    margin-bottom: 16px;
+    margin-right: 0px;
 }
     
