@@ -29,8 +29,6 @@ img{
 .header {padding-top: 24px;
     padding-bottom: 24px;
     border-bottom: 1px solid #e7e9fc;
-    max-height: 72px;
-    max-width: 1440px;
 }
 .header-container{
     display: flex;
@@ -41,8 +39,8 @@ img{
 .header-navigation{
     display: flex;
     align-items: center;
-    
-
+    justify-content: start;
+    flex-grow: 1;
 }
 .header-logo{
     color:#4d5ae5;
@@ -64,7 +62,6 @@ img{
     line-height: 1.5; /* 150% */
     letter-spacing: 0.02em;
     display: flex;
-    margin-right: 332px;
     gap: 40px;
 }
 .header-list-link{color:#2E2F42;
@@ -107,12 +104,9 @@ address{font-style: normal}
 
         /*=========================================================*/
         .main{
-            max-width: 1440px;
         }
         .button{background-color:#2E2F42;
             color:#FFF;
-            max-width: 1440px;
-            max-height: 600px;
             padding: 188px 0px;
         }
         .main-title{
@@ -159,7 +153,6 @@ address{font-style: normal}
             line-height: 1.2; /* 120% */
             letter-spacing: 0.02em;
             margin-bottom: 8px;
-            padding-top: 32px;
             text-align: start;
          }
         .advantages {
@@ -204,7 +197,6 @@ address{font-style: normal}
     font-style:normal;
     line-height:1.11; /* 111.111% */
     letter-spacing:0.02em;
-    padding-top: 120px;
     margin-bottom: 72px;
 }
 .team-list {
@@ -230,7 +222,6 @@ address{font-style: normal}
     font-style: normal;
     line-height: 1.5; /* 150% */
     letter-spacing:0.02em;
-    padding-bottom: 32px;
     margin: 0px auto;
     text-align: center;
 }
